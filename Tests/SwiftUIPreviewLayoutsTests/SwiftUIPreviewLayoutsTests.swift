@@ -1,12 +1,20 @@
 import XCTest
+import SwiftUI
 @testable import SwiftUIPreviewLayouts
 
 final class SwiftUIPreviewLayoutsTests: XCTestCase {
-    func testExample() throws {
-        // XCTest Documentation
-        // https://developer.apple.com/documentation/xctest
+    func testGetDeviceString() {
+        let preview = PreviewLayouts(devices: [.iPad_10, .iPhone_15], content: { TestView() })
+        XCTAssertEqual(preview.getDeviceString(.iPad_10), " - \(Device.iPad_10.rawValue)")
+        XCTAssertEqual(preview.getDeviceString(.iPhone_15), " - \(Device.iPhone_15.rawValue)")
+        
+        let singleDevicePreview = PreviewLayouts(devices: [.iPad_10], content: { TestView() })
+        XCTAssertEqual(singleDevicePreview.getDeviceString(.iPad_10), "")
+    }
+}
 
-        // Defining Test Cases and Test Methods
-        // https://developer.apple.com/documentation/xctest/defining_test_cases_and_test_methods
+struct TestView: View {
+    var body: some View {
+        Text("Hello, Test!")
     }
 }
