@@ -88,7 +88,6 @@ public struct PreviewLayouts<Content>: View where Content: View {
                         HStack(spacing: 0) {
                             Spacer()
                             content()
-                                .frame(width: 375)
                                 .slideOverModifier()
                         }
                     }
@@ -101,7 +100,6 @@ public struct PreviewLayouts<Content>: View where Content: View {
                         HStack(spacing: 0) {
                             Spacer()
                             content()
-                                .frame(width: 375)
                                 .slideOverModifier()
                         }
                     }

@@ -2,6 +2,7 @@ import XCTest
 import SwiftUI
 @testable import SwiftUIPreviewLayouts
 
+#if os(iOS)
 final class SwiftUIPreviewLayoutsTests: XCTestCase {
     func testGetDeviceString() {
         let preview = PreviewLayouts(devices: [.iPad_10, .iPhone_15], content: { TestView() })
@@ -12,6 +13,7 @@ final class SwiftUIPreviewLayoutsTests: XCTestCase {
         XCTAssertEqual(singleDevicePreview.getDeviceString(.iPad_10), "")
     }
 }
+#endif
 
 struct TestView: View {
     var body: some View {
