@@ -15,9 +15,6 @@ struct SlideOverModifier: ViewModifier {
             .frame(height: 28)
             .frame(maxWidth: .infinity)
             .background(Color.red)
-            .overlay(
-                Text("UNUSABLE HEIGHT ZONE")
-            )
             
             content
                 .overlay(
