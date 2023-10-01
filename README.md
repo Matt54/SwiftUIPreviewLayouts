@@ -14,7 +14,7 @@ SwiftUIPreviewLayouts is a Swift package for generating multiple SwiftUI preview
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/YourGitHubUsername/SwiftUIPreviewLayouts.git", from: "1.0.0")
+    .package(url: "https://github.com/Matt54/SwiftUIPreviewLayouts.git", from: "1.0.0")
 ]
 ```
 
