@@ -2,7 +2,7 @@
 
 SwiftUIPreviewLayouts is a Swift package for generating multiple SwiftUI previews for various device layouts and multitasking modes, specifically for iOS.
 
-![All Layouts in Action](./media/Previews Video.gif)
+![All Layouts in Action](./media/Previews%20Video.gif)
 
 ## Features
 
@@ -45,31 +45,31 @@ struct YourView_Previews: PreviewProvider {
 
 ### Landscape Half Split
 
-![Landscape Half Split](./media/Landscape Half Split.png)
+![Landscape Half Split](./media/Landscape%20Half%20Split.png)
 
 ### Landscape Large Split
 
-![Landscape Large Split](./media/Landscape Large Split.png)
+![Landscape Large Split](./media/Landscape%20Large%20Split.png)
 
 ### Landscape Slide
 
-![Landscape Slide](./media/Landscape Slide.png)
+![Landscape Slide](./media/Landscape%20Slide.png)
 
 ### Landscape Small Split
 
-![Landscape Small Split](./media/Landscape Small Split.png)
+![Landscape Small Split](./media/Landscape%20Small%20Split.png)
 
 ### Portrait Large Split
 
-![Portrait Large Split](./media/Portrait Large Split.png)
+![Portrait Large Split](./media/Portrait%20Large%20Split.png)
 
 ### Portrait Slide
 
-![Portrait Slide](./media/Portrait Slide.png)
+![Portrait Slide](./media/Portrait%20Slide.png)
 
 ### Portrait Small Split
 
-![Portrait Small Split](./media/Portrait Small Split.png)
+![Portrait Small Split](./media/Portrait%20Small%20Split.png)
 
 ## Contributing
 
