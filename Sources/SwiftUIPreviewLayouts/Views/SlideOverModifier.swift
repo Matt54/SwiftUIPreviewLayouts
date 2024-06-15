@@ -27,9 +27,10 @@ struct SlideOverModifier: ViewModifier {
                         .padding(.vertical, 8)
                 )
         }
-            .cornerRadius(10)
-            .frame(width: 375)
-            .padding(.trailing, 24)
+        .background(Color.black)
+        .cornerRadius(10)
+        .frame(width: 320)
+        .padding(.trailing, 24)
     }
 }
 
